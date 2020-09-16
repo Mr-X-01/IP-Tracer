@@ -1,0 +1,9 @@
+# Tool Name :- IP-Tracer
+# Author :- Mr. X
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/IP-Tracer
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/IP-Tracer
+  exec bash trace $@
+fi
