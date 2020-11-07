@@ -1,5 +1,6 @@
-# Tool Name :- IP-Tracer
-# Author :- Mr. X
+# Author: Mr-X-01
+# Telegram: @Mrxanon
+# https://github.com/Mr-X-01
 
 if [ -e  /usr/lib/sudo ];then
   if [ ! -e /usr/bin/php ];then
