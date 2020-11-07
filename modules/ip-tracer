@@ -1,5 +1,6 @@
-# Tool Name :- IP-Tracer
-# Author :- Mr. X
+# Author: Mr-X-01
+# Telegram: @Mrxanon
+# https://github.com/Mr-X-01
 if [ -d /data/data/com.termux/files/usr/share ];then
   cd /data/data/com.termux/files/usr/share/IP-Tracer
   exec bash trace $@
